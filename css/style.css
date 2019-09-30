@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.navbar{
+    position: relative;
+}
+.container-flued{
+    height:85px;
+    width:100%;
+    padding-left: 0px;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 0px;
+    background-color: grey;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.navbar-brand{
+    /* overflow: auto; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:0px;
+    padding: 0px;
+    padding-left:20px;
+    width: 100%; 
+    line-height: 0px;   
+}
+h1{
+    font-weight: bolder;
+    color: black;
+   
+    
+
+    
+}
+#title{
+    text-align: center;
+    clear: both;
+    
+}
+
+.row{
+width:100%;
+
+ 
+} 
+.col{
+padding:10px;
+
+
+}
+.container{
+    position: relative;
+    padding:10px;
+    border:1px solid black;
+    background-color: gray; 
+    margin-bottom:10px;
+    
+}
+h3{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    margin-top:0px; 
+}
+.text{
+    color: black;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle {
+    border: 2px solid black;
+    height: 60px;
+    width:60px;
+    border-radius: 5px; 
+    padding:5px; 
+     
+}
+.navbar-default .navbar-toggle .icon-bar{
+    border: 3px solid black;   
+}
+.navbar-toggle .icon-bar {
+    width:90%;
+    margin-bottom: 5px;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    
+  }
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color:black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: white;
+    font-weight: bold;
+    font-size:125%;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .collapse.in {
+    clear: both;
+    display: block;
+    overflow: auto;
+    float: left;
+    width: 100%;
+    border: 3px solid black;
+  
+}
+
